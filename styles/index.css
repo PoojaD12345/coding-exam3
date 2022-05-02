@@ -1,0 +1,30 @@
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#search_input{
+    height: 50px;
+    width: 50%;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    position: fixed;
+}
+#results{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+  margin-left: 20%;
+}
+#box{
+    display: flex;
+    border: 1px solid black;
+}
+#img{
+    width: 30%;
+
+}
